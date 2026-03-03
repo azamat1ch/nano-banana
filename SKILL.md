@@ -9,6 +9,20 @@ description: |
 
 Generate images with Gemini 3.1 Flash Image. Text-to-image, editing with references, character consistency, and model selection.
 
+## First Run Setup
+
+If `generate.py` fails with `[Error] GEMINI_API_KEY not set`, tell the user to:
+
+1. Get a free API key at https://aistudio.google.com/apikey
+2. Save it. Give the user the full absolute path, resolved from this skill's location:
+
+```bash
+echo "GEMINI_API_KEY=your-key-here" > <this-skill-root>/scripts/.env
+```
+
+For example, if installed globally: `~/.claude/skills/nano-banana/scripts/.env`
+If installed in a project: `.claude/skills/nano-banana/scripts/.env`
+
 ## Command
 
 ```bash
