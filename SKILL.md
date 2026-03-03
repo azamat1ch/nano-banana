@@ -1,8 +1,6 @@
 ---
 name: nano-banana
-description: |
-  Image generation using Gemini 3.1 Flash Image model.
-  Use when the user needs to: (1) Generate images from text prompts, (2) Create visuals for LinkedIn posts, presentations, or content, (3) Generate logos, infographics, illustrations, or diagrams, (4) Edit existing images (background changes, style transfer, colorization), (5) Create consistent character/brand imagery across multiple images.
+description: Image generation using Gemini 3.1 Flash Image model. Use when the user needs to generate images from text prompts, create visuals for posts or presentations, generate logos or infographics, edit existing images, or create consistent character imagery across multiple images.
 ---
 
 # Image Generation with Nano Banana
